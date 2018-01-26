@@ -1,4 +1,5 @@
 from bottle import *
+import os
 
 @route("/")
 def vid():
