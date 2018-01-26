@@ -180,4 +180,4 @@ def server_static(filename):
 def error404(error):
     return '<p>This webside dose not exist</p><a href="/">back</>'
 
-run(host='0.0.0.0', port=os.einviron.get('PORT'))
+run(host='0.0.0.0', port=os.environ.get('PORT'))
